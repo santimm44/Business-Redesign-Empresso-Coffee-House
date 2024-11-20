@@ -65,9 +65,18 @@
 }
 /* NavBar & Logo End */
 
+/* Section Title Start */
+.section-title{
+    color: white;
+    background-color: black;
+    font-family: serif, sans-serif;
+}
+/* Section Title End */
+
 /* Footer Home Start */
 
 .main-footer {
+    font-family: serif, sans-serif;
     width: 100%;
     height: auto;
   }
