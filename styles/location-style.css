@@ -51,32 +51,3 @@ body {
     padding: 55px;
     width: 50%;
   }
-
-/* Footer */
-
-  .main-footer {
-    width: 100%;
-    height: auto;
-  }
-  .footer-color {
-    background-color: #1e1e1e;
-    padding-bottom: 25px;
-    margin-top: 100px;
-  }
-  
-  .footer-text {
-    color: #ffffff;
-  }
-
-  .follow-centering{
-    margin-left: 30px
-  }
-
-  .icon-margin{
-    margin-left: 25px;
-    margin-right: 15px;
-  }
-
-  .icon-margin2{
-    margin-left: 15px;
-  }
