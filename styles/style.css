@@ -13,6 +13,11 @@
 
 
 /*Element selectors start*/
+body {
+    background-image: url(../assets/bgtexture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
 /*Element selectots end*/
 
@@ -73,6 +78,26 @@
 }
 /* Section Title End */
 
+/* About Start */
+.about-bg{
+    background-image: url(../assets/oldshop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: serif, sans-serif;
+    max-width: 90%;
+    height: auto;
+    margin-top: 5rem;
+}
+.about-box{
+    background-color: #080808ba;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+/* About End */
+
 /* Footer Home Start */
 
 .main-footer {
@@ -103,6 +128,8 @@
     margin-left: 15px;
   }
   /* Footer Home End */
+
+  
 
 /*Class selectors end*/
 
