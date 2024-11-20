@@ -12,7 +12,7 @@ body {
   background-image: url(../assets/CollegeSquareLocation4.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 1000px;
+  max-width: 70%;
   height: 500px;
   background-size: cover;
   display: flex;
@@ -24,7 +24,7 @@ body {
   background-image: url(../assets/imaxcoffee.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 1000px;
+  max-width: 70%;
   height: 500px;
   background-size: cover;
   display: flex;
@@ -36,7 +36,7 @@ body {
   background-image: url(../assets/courtcoffee.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 1000px;
+  max-width:  70%;
   height: 500px;
   background-size: cover;
   display: flex;
@@ -50,4 +50,5 @@ body {
     text-align: center;
     padding: 55px;
     width: 50%;
+    font-family: serif, sans-serif;
   }
