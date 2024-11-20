@@ -1,0 +1,82 @@
+body {
+  background-image: url(../assets/bgtexture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.location-margin{
+    margin-top: 65px;
+}
+
+.location-one {
+  background-image: url(../assets/CollegeSquareLocation4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1000px;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-two {
+  background-image: url(../assets/imaxcoffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1000px;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-three {
+  background-image: url(../assets/courtcoffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1000px;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+    background-color: #00000096;
+    color: #ffffff;
+    text-align: center;
+    padding: 55px;
+    width: 50%;
+  }
+
+/* Footer */
+
+  .main-footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer-color {
+    background-color: #1e1e1e;
+    padding-bottom: 25px;
+    margin-top: 100px;
+  }
+  
+  .footer-text {
+    color: #ffffff;
+  }
+
+  .follow-centering{
+    margin-left: 30px
+  }
+
+  .icon-margin{
+    margin-left: 25px;
+    margin-right: 15px;
+  }
+
+  .icon-margin2{
+    margin-left: 15px;
+  }
