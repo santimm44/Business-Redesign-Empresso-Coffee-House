@@ -1,0 +1,54 @@
+body {
+  background-image: url(../assets/bgtexture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.location-margin{
+    margin-top: 65px;
+}
+
+.location-one {
+  background-image: url(../assets/CollegeSquareLocation4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 70%;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-two {
+  background-image: url(../assets/imaxcoffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 70%;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-three {
+  background-image: url(../assets/courtcoffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width:  70%;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+    background-color: #00000096;
+    color: #ffffff;
+    text-align: center;
+    padding: 55px;
+    width: 50%;
+    font-family: serif, sans-serif;
+  }

@@ -1,8 +1,155 @@
+/* Fonts Start */
+@font-face {
+    font-family: Serif;
+    src: url(../assets/fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf);
+}
+
+@font-face {
+    font-family: Sans;
+    src: url(../assets/fonts/HedvigLettersSans-Regular.ttf);
+}
+
+/* Fonts End */
+
+
 /*Element selectors start*/
+
 /*Element selectots end*/
 
 /*Class selections start*/
+
+/* NavBar & Logo Start */
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-nav a:hover {
+    color: #EC221F;
+}
+
+.navbar button {
+    color: white;
+}
+
+.nav-image {
+    border-radius: 50%;
+    max-width: 50%;
+
+}
+
+.nav-image-container {
+    text-align: center;
+}
+
+.java-bg {
+    background-image: url(../assets/Coffee\ Cup\ under\ Nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.java-box {
+    margin: 3rem;
+}
+.java-image{
+    max-width: 100%;
+    min-width: 220px;
+}
+/* NavBar & Logo End */
+
+/* Section Title Start */
+.section-title{
+    color: white;
+    background-color: black;
+    font-family: serif, sans-serif;
+}
+/* Section Title End */
+
+/* Footer Home Start */
+
+.main-footer {
+    font-family: serif, sans-serif;
+    width: 100%;
+    height: auto;
+  }
+  .footer-color {
+    background-color: #1e1e1e;
+    padding-bottom: 25px;
+    margin-top: 100px;
+  }
+  
+  .footer-text {
+    color: #ffffff;
+  }
+
+  .follow-centering{
+    margin-left: 30px
+  }
+
+  .icon-margin{
+    margin-left: 25px;
+    margin-right: 15px;
+  }
+
+  .icon-margin2{
+    margin-left: 15px;
+  }
+  /* Footer Home End */
+
 /*Class selectors end*/
 
 /*Media queries start*/
+@media (min-width:992px) {
+    .navbar-nav li {
+        font-family: serif, sans-serif;
+        font-size: 1.25rem;
+        text-align: center;
+        width: 100px;
+        margin: 70px 20px 20px;
+    }
+
+    .navColor {
+        background: black 0% 0% no-repeat padding-box;
+        top: 0px;
+        bottom: 0px;
+        width: auto;
+        height: 7.5rem;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: black;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    .navbar-nav li {
+        font-family: serif, sans-serif;
+        font-size: 1.25rem;
+        text-align: start;
+        width: 100px;
+        margin: 1rem;
+    }
+
+    .navColor {
+        background-color: black;
+        width: 100%;
+        padding: 1rem 0;
+    }
+}
+
 /*Media queries end*/
