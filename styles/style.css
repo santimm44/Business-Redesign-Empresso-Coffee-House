@@ -178,5 +178,11 @@ body {
         padding: 1rem 0;
     }
 }
+@media (max-width: 426px) {
+    .about-text{
+        font-size: x-large;
+    }
+    
+}
 
 /*Media queries end*/
