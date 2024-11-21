@@ -17,7 +17,7 @@ body {
     background-image: url(../assets/bgtexture.jpg);
     background-size: cover;
     background-repeat: repeat-y;
-  }
+}
 
 /*Element selectots end*/
 
@@ -64,22 +64,25 @@ body {
 .java-box {
     margin: 3rem;
 }
-.java-image{
+
+.java-image {
     max-width: 100%;
     min-width: 220px;
 }
+
 /* NavBar & Logo End */
 
 /* Section Title Start */
-.section-title{
+.section-title {
     color: white;
     background-color: black;
     font-family: serif, sans-serif;
 }
+
 /* Section Title End */
 
 /* About Start */
-.about-bg{
+.about-bg {
     background-image: url(../assets/oldshop.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -90,7 +93,8 @@ body {
     height: auto;
     margin-top: 5rem;
 }
-.about-box{
+
+.about-box {
     background-color: #080808ba;
     margin-top: 15rem;
     margin-bottom: 15rem;
@@ -104,32 +108,34 @@ body {
     font-family: serif, sans-serif;
     width: 100%;
     height: auto;
-  }
-  .footer-color {
+}
+
+.footer-color {
     background-color: #1e1e1e;
     padding-bottom: 25px;
     margin-top: 100px;
-  }
-  
-  .footer-text {
+}
+
+.footer-text {
     color: #ffffff;
-  }
+}
 
-  .follow-centering{
+.follow-centering {
     margin-left: 30px
-  }
+}
 
-  .icon-margin{
+.icon-margin {
     margin-left: 25px;
     margin-right: 15px;
-  }
+}
 
-  .icon-margin2{
+.icon-margin2 {
     margin-left: 15px;
-  }
-  /* Footer Home End */
+}
 
-  
+/* Footer Home End */
+
+
 
 /*Class selectors end*/
 
@@ -178,11 +184,11 @@ body {
         padding: 1rem 0;
     }
 }
+
 @media (max-width: 426px) {
-    .about-text{
+    .about-text {
         font-size: x-large;
     }
-    
 }
 
 /*Media queries end*/
