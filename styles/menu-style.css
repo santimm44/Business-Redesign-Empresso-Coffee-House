@@ -1,0 +1,30 @@
+/*element selector start*/
+/*element selector end*/
+
+/*class selector start*/
+.menu-bg{
+    background-color: #00000033;
+    border-radius: 15px;
+}
+
+/*class selector end*/
+
+/*Media queries start*/
+@media only screen and (max-width : 950px) {
+    .custom-accordion{
+        display:block;
+        padding:10px;
+        border:1px solid #544454;
+        margin:5px
+    }
+    .custom-accordion-item{
+        display: none;
+    }
+    .custom-accordion-header{
+        display:block;
+        padding:10px;
+        border:1px solid #544454;
+        margin:5px
+    }
+}
+/*media queries end*/
