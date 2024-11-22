@@ -214,10 +214,6 @@ body {
     .nav-image{
         max-width: 25%;
     }
-    .about-box{
-        margin-top: 10rem;
-        margin-bottom: 10rem;
-    }
 }
 
 @media (max-width: 767px){
