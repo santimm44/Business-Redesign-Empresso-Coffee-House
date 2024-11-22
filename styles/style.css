@@ -38,7 +38,10 @@ body {
 }
 
 .navbar button {
-    color: white;
+    color: #EC221F;
+}
+.navbar button:hover {
+    color: #EC221F;
 }
 
 .nav-image {
