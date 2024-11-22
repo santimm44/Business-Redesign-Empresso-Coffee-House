@@ -17,6 +17,7 @@ body {
     background-image: url(../assets/bgtexture.jpg);
     background-size: 100%;
     background-repeat: repeat-y;
+    font-family: serif, sans-serif;
 }
 
 /*Element selectots end*/
@@ -38,13 +39,31 @@ body {
 }
 
 .navbar button {
-    color: white;
+    color: #EC221F;
+}
+.navbar button:hover {
+    color: #EC221F;
 }
 
 .nav-image {
     border-radius: 50%;
     max-width: 50%;
 
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.nav-image:hover{
+    animation: rotateImage 1s infinite;
+}
+@keyframes rotateImage {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 1, 360deg);
+    }
 }
 
 .nav-image-container {
@@ -120,6 +139,11 @@ body {
     color: #ffffff;
 }
 
+.follow-content{
+    display: flex;
+    justify-content: center;
+}
+
 .follow-centering {
     margin-left: 30px
 }
@@ -131,6 +155,10 @@ body {
 
 .icon-margin2 {
     margin-left: 15px;
+}
+
+.hide-footer-two{
+    display: none;
 }
 
 /* Footer Home End */
@@ -182,6 +210,36 @@ body {
         background-color: black;
         width: 100%;
         padding: 1rem 0;
+    }
+    .nav-image{
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 767px){
+    .footer-margin{
+        margin: 40px 0 0;
+    }
+
+    .hide-footer-one{
+        display: none;
+    }
+
+    .hide-footer-two{
+        display: contents;
+    }
+
+    .icon-margin {
+        margin-left: 0px;
+        margin-right: 27.5px;
+    }
+    
+    .icon-margin2 {
+        margin-left: 27.5px;
+    }
+
+    .margin-hidden{
+        padding-top: 50px;
     }
 }
 
