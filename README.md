@@ -40,3 +40,5 @@ Mobile responsiveness
 1. Good use of accordion however the accordion header color (blue)could be changed to fit the color theme of the website .
 2. Some of the 2nd level accordion items doesn’t have a description . You should get rid of the buttons for those. 
 3.Fruit smoothie items doesn’t have the prices and is not consistent to other menu items.
+4. Some of the accordion body text in red doesn't seem to fit well with the theme and could be misunderstood as a link since it is underlined. Change it to black or something similar to the theme of the website.
+   
