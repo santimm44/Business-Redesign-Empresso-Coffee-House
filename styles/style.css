@@ -212,15 +212,15 @@ body {
 
     .icon-margin {
         margin-left: 0px;
-        margin-right: 25px;
+        margin-right: 27.5px;
     }
     
     .icon-margin2 {
-        margin-left: 25px;
+        margin-left: 27.5px;
     }
 
-    .new-margin{
-        margin-top: 30px;
+    .margin-hidden{
+        padding-top: 50px;
     }
 }
 
