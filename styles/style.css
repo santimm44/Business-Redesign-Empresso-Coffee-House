@@ -120,6 +120,11 @@ body {
     color: #ffffff;
 }
 
+.follow-content{
+    display: flex;
+    justify-content: center;
+}
+
 .follow-centering {
     margin-left: 30px
 }
@@ -183,6 +188,13 @@ body {
         width: 100%;
         padding: 1rem 0;
     }
+}
+
+@media (max-width: 767px){
+    .footer-margin{
+        margin: 40px 0 0;
+    }
+
 }
 
 @media (max-width: 426px) {
