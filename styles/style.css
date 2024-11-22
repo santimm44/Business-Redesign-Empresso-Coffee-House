@@ -48,6 +48,21 @@ body {
     border-radius: 50%;
     max-width: 50%;
 
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.nav-image:hover{
+    animation: rotateImage 1s infinite;
+}
+@keyframes rotateImage {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 1, 360deg);
+    }
 }
 
 .nav-image-container {
@@ -194,6 +209,9 @@ body {
         background-color: black;
         width: 100%;
         padding: 1rem 0;
+    }
+    .nav-image{
+        max-width: 25%;
     }
 }
 
