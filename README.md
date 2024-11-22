@@ -1,28 +1,22 @@
 # Business-Redesign-Empresso-Coffee-House
 
+![Design preview for the Business-Redesign-Empresso-Coffee-House](./assets/empressoReadmeimg.png)
 
+**Description**: Took a local business and did a redesign to their existing site. This redesign improved their site and made it more up to date.
 
-Delete after use: 
+**Name**: Santiago Montanez, Brock Spacek, Michael Heckerman
 
-Menu Differences for project - 
+**Date**: 11/22/24
 
-Coffee - Same
-Espresso Drinks - Same
-Blended Frappe - Same
-Specialty Frappes - Same
-Tea - Same
-Fruit Smoothies - Only available at College Location according to website
-Customize - Same
-Craft Beer - Updates weekly only at college square (delete)
+**Original Site**: https://www.empressocoffeehouse.com/
 
-Food Menu - College Square does not have one
+**Figma**: https://www.figma.com/design/acAkkaV22o0hgckLFJVbNo/Business-Redesign?node-id=0-1&node-type=canvas&t=jGKDvPnYqrfx7iXb-0
 
-Breakfast Sandwhiches - Same 
-Specialty Bagel Sandwiches - Same
-Breakfast Items - Same
-Specialty Sandwhiches - Meditrranean appears twice on El Dorado Menu
-Panini - Grilled Cheese slight differences
-Salads - Same
-Deli Sandwhich  - Same
-Ciabatta Pizza - Only on El Dorado Menu
-Assorted Pastires and Desserts - There is none
+**Github**: https://github.com/santimm44/Business-Redesign-Empresso-Coffee-House
+
+**Vercel**: https://business-redesign-empresso-coffee-house.vercel.app/
+
+### Peer Review:
+**Name**: 
+
+**Comments**: 
