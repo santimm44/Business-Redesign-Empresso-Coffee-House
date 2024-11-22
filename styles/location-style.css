@@ -1,6 +1,5 @@
-
-.location-margin{
-    margin-top: 100px;
+.location-margin {
+  margin-top: 100px;
 }
 
 .location-one {
@@ -31,7 +30,7 @@
   background-image: url(../assets/courtcoffee.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  max-width:  70%;
+  max-width: 70%;
   height: 500px;
   background-size: cover;
   display: flex;
@@ -40,56 +39,81 @@
 }
 
 .address {
-    background-color: #00000096;
-    color: #ffffff;
-    text-align: center;
-    padding: 55px;
-    width: 50%;
-    font-family: serif, sans-serif;
-    align-items: center;
-  }
+  background-color: #00000096;
+  color: #ffffff;
+  text-align: center;
+  padding: 55px;
+  width: 50%;
+  font-family: serif, sans-serif;
+  align-items: center;
+}
 
-  @media screen and (max-width: 900px){
-    .address{
-        height: 50%;
-        width: 70%;
-        padding: 30px;
-        display: flex;
-        justify-content: center;
-    }
+@media screen and (max-width: 900px) {
+  .address {
+    height: 50%;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
   }
+}
 
-  @media screen and (max-width: 730px){
-    .address{
-        width: 75%;
-        height: 50%;
-        padding: 10px
-    
-    }
+@media screen and (max-width: 730px) {
+  .address {
+    width: 75%;
+    height: 50%;
+    padding: 10px;
   }
+}
 
-  @media screen and (max-width: 580px){
-    .address{
-        width: 80%;
-        height: 55%;
-        padding: 0px;
-    }
+@media screen and (max-width: 580px) {
+  .address {
+    width: 80%;
+    height: 55%;
+    padding: 0px;
   }
+}
 
-  @media screen and (max-width: 500px) {
-    .location-one{
-        max-width: 80%;
-    }
-    .location-two{
-        max-width: 80%;
-    }
-    .location-three{
-        max-width: 80%;
-    }
+@media screen and (max-width: 500px) {
+  .location-one {
+    max-width: 80%;
   }
+  .location-two {
+    max-width: 80%;
+  }
+  .location-three {
+    max-width: 80%;
+  }
+}
 
-  @media screen and (max-width: 426px) {
-   .address{
+@media screen and (max-width: 426px) {
+  .address {
     width: 82.5%;
-   }
   }
+
+  .location-one {
+    max-width: 80%;
+    height: 400px;
+  }
+  .location-two {
+    max-width: 80%;
+    height: 400px;
+  }
+  .location-three {
+    max-width: 80%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 320px){
+    .location-one {
+        height: 350px;
+      }
+      .location-two {
+
+        height: 350px;
+      }
+      .location-three {
+        height: 350px;
+      }
+}
