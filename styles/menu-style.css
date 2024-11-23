@@ -1,8 +1,6 @@
 /*element selector start*/
 
-h3{
-    
-}
+
 
 body{
     font-family: serif, sans-serif;
@@ -13,9 +11,8 @@ body{
 /*class selector start*/
 
 .h2-menu__text{
-    text-decoration: underline;
-    text-decoration-color: #EC221F;
-    text-decoration-thickness: .25rem;
+
+    
     font-style: italic;
     margin-bottom: .8rem;
 
@@ -28,6 +25,9 @@ body{
 .menu-bg{
     background-color: #00000033;
     border-radius: 15px;
+}
+.black-bg{
+    background-color: black;
 }
 
 .additional-prices__text{
