@@ -82,6 +82,8 @@ body {
 
 .java-box {
     margin: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
 .java-image {
